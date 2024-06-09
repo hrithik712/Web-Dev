@@ -1,0 +1,15 @@
+/* p{
+    position: static;
+} */
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+#box{
+    position: relative;
+    left: 15px;
+    top: 100px;
+}

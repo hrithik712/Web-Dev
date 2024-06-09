@@ -1,0 +1,13 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.translated{
+    transform: perspective(10px) translateZ(-10px);
+}
+/* to rotate along z axis, perspective ko on karna padega */
+.scaled{
+    transform: perspective(15px) scaleZ(2) rotateZ(30deg);
+}

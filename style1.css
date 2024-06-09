@@ -1,0 +1,34 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(red, blue);
+    background-image: linear-gradient(to right, red, blue);
+    background-image: linear-gradient(to bottum right, blue);
+}
+
+
+.mydiv{
+    border: 1px solid black;
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+    background-image: radial-gradient(circle, red, blue);
+}
+.mydiv1{
+    border: 1px solid black;
+    margin: 15px;
+    height: 300px;
+    width: 200px;
+
+    background-image: conic-gradient(50, red, navy);
+
+
+}
+.Myflag{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(orange,white, green);
+
+}
