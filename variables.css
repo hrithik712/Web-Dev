@@ -1,0 +1,18 @@
+/* to declare global variable  */
+:root{
+    --dark-red: hsl(351, 71%, 35%);
+}
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid brown;
+    background-color: antiquewhite;
+    background-color: var(--dark-red);
+}
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+    /* to create variable in css */
+    --dark-red: #981a2c;
+    color:var(--dark-red);
+}

@@ -1,0 +1,39 @@
+.container{
+    height:500px;
+    width: 500px;
+    background-color: rgb(110, 240, 110);
+    border: 3px solid red;
+    display: flex;
+}
+.box{
+    height: 140px;
+    width: 140px;
+    margin: 20px;
+    border: 2px solid orange;
+    background-color: aquamarine;
+
+    /* transition: 2s;
+    by writing all we can apply transition effect to all
+    Bad Practise
+    /* transition-property: background-color;
+    transition-delay: 5s;
+     */ 
+
+     /* transition: all 1s ease 3s;
+     transition: background-color 1s ease 3s; */
+
+/* 
+     ease-in use karne par starting m slow chalega fir fast hoga
+     ease-out use karne par starting m fast hoga auske baad slow hoga */
+     transition: transform 3s ease-in;
+
+
+     /* Now to create own function or transition //  copy from inspect in browser*/
+     transition: transform 3s cubic-bezier(1, -0.09, 0, 1.68);
+}
+.box:hover{
+    background-color: brown;
+    /* transform: rotate(45deg);  */
+
+    transform: scale(4) translateX(400px) rotate(360deg);
+}
